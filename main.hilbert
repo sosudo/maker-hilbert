@@ -1,0 +1,22 @@
+Accumulator
+Accumulator.load(2)
+Accumulator + 4
+Accumulator.store('x')
+Var
+let('a', 5)
+sqrt(4)+1j+abs(-2.1)+signum(-5345312)*factorial(100)
+factorial(1000)
+factorial(1500)
+1j+2j
+parity(5)
+fib(41)
+sort([-1,0,51,432,-5432,5934953,0,0,12])
+stalinsort([-1, 23232, 523])
+let('z', Polynomial(1, 2, 3))
+Var['z']+Polynomial(1, 2)
+Var['z']*Polynomial(5, 7)
+Var['z'](5)
+Var['z'].roots(0, 2147483647, 5)
+let('b', Vector(1, 3))
+Var['b']+Vector(1, 2)
+exit()
